@@ -1,0 +1,249 @@
+<html>
+ <head>
+  <title>
+   Barbearia
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #333;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .header {
+            position: relative;
+            background-image: url('https://placehold.co/400x200');
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+        }
+        .header .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .header .status {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #00FF00;
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .header .info {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+        .header .info h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header .info p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .actions {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background-color: #444;
+        }
+        .actions i {
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .services {
+            padding: 10px;
+        }
+        .services h2 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+        .search-bar {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .search-bar input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .service-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .service-item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .service-item .details {
+            flex: 1;
+        }
+        .service-item .details h3 {
+            margin: 0;
+            font-size: 16px;
+        }
+        .service-item .details p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #aaa;
+        }
+        .service-item .price {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .service-item .buy-button {
+            background-color: #00FF00;
+            color: #000;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <div class="back-button">
+     <i class="fas fa-arrow-left">
+     </i>
+    </div>
+    <div class="status">
+     ABERTO
+    </div>
+    <div class="info">
+     <h1>
+      Salão Corte Nobre
+     </h1>
+     <p>
+      João Pessoa - 5.6kms
+     </p>
+    </div>
+   </div>
+   <div class="actions">
+    <i class="fas fa-phone">
+    </i>
+    <i class="fas fa-map-marker-alt">
+    </i>
+    <i class="fas fa-share-alt">
+    </i>
+   </div>
+   <div class="services">
+    <h2>
+     Serviços(4)
+    </h2>
+    <div class="search-bar">
+     <input placeholder="Pesquise um Serviço..." type="text"/>
+    </div>
+    <div class="service-item">
+     <img alt="Pasta Black 80g - Fox For Men" height="50" src="https://storage.googleapis.com/a1aa/image/JbLv02eHqYVBQKxk2m7C2Y5ugblOA2LSvGkxYtsZN6DD1V2JA.jpg" width="50"/>
+     <div class="details">
+      <h3>
+       Pasta Black 80g - Fox For Men
+      </h3>
+      <p>
+       (Cód:HAJDOMXS9GJ)
+      </p>
+      <div class="price">
+       R$ 14,50
+      </div>
+     </div>
+     <button class="buy-button">
+      Comprar
+     </button>
+    </div>
+    <div class="service-item">
+     <img alt="Creme Efeito Teia 80g - Fox For Men" height="50" src="https://storage.googleapis.com/a1aa/image/u3SiszGNdiboPNxLKT0ll67ojz5i5ynlOwd2rBxjHyyh6K7E.jpg" width="50"/>
+     <div class="details">
+      <h3>
+       Creme Efeito Teia 80g - Fox For Men
+      </h3>
+      <p>
+       (Cód:JODBCYFU57J)
+      </p>
+      <div class="price">
+       R$ 14,50
+      </div>
+     </div>
+     <button class="buy-button">
+      Comprar
+     </button>
+    </div>
+    <div class="service-item">
+     <img alt="Balm Classe A" height="50" src="https://storage.googleapis.com/a1aa/image/HjvUamesHw1yLqko5NHpNDMAbFsqpMNQhOPENf4pDpiDqrsTA.jpg" width="50"/>
+     <div class="details">
+      <h3>
+       Balm Classe A
+      </h3>
+      <p>
+       (Cód:KJYODETLV5J)
+      </p>
+      <div class="price">
+       R$ 37,00
+      </div>
+     </div>
+     <button class="buy-button">
+      Comprar
+     </button>
+    </div>
+    <div class="service-item">
+     <img alt="Cera Capilar Modeladora Da Brilho Coffe 80g - Fox For Men" height="50" src="https://storage.googleapis.com/a1aa/image/t0nxXY5FYn5xFh1ivoj6tV7fEufWM58geeZGeKGGubDSQdldC.jpg" width="50"/>
+     <div class="details">
+      <h3>
+       Cera Capilar Modeladora Da Brilho Coffe 80g - Fox For Men
+      </h3>
+      <p>
+       (Cód:HASVIE7J50)
+      </p>
+      <div class="price">
+       R$ 15,00
+      </div>
+     </div>
+     <button class="buy-button">
+      Comprar
+     </button>
+    </div>
+    <div class="service-item">
+     <img alt="Caneta pigmentação para barba" height="50" src="https://storage.googleapis.com/a1aa/image/zbLDGHKm0Wb7AdScMAm2bHJ38zjGIOsKHlteFBJjIRaC1V2JA.jpg" width="50"/>
+     <div class="details">
+      <h3>
+       Caneta pigmentação para barba
+      </h3>
+      <p>
+       (Cód:HAJDLKA3EJ)
+      </p>
+      <div class="price">
+       R$ 64,90
+      </div>
+     </div>
+     <button class="buy-button">
+      Comprar
+     </button>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
