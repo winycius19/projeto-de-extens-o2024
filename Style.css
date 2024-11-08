@@ -1,0 +1,194 @@
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, p {
+    color: #ffffff;
+}
+
+a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+/* Tela de Início */
+.start-screen {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #181818;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-options {
+    margin: 20px 0;
+}
+
+.login-btn {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google {
+    background-color: #4285F4;
+    color: white;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.phone {
+    background-color: #34A853;
+    color: white;
+}
+
+/* Tela Principal */
+.main-page {
+    padding: 20px;
+}
+
+/* Contatos */
+.contact-buttons button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Barra de Pesquisa */
+.search-bar {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Categorias */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.category button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Produtos */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Serviços */
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service button {
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Profissionais */
+.professionals {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.professional {
+    text-align: center;
+}
+
+.professional img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Calendário */
+.calendar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.week, .dates {
+    display: flex;
+    justify-content: baseline;
+}
